@@ -1,0 +1,38 @@
+@import "../../index.scss";
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    .nav-links{
+        display: flex;
+        align-items: center;
+        .logo{
+            height: 100%;
+        }
+        ul{
+            display: flex;
+            li{
+                text-decoration: none;
+                list-style: none;
+                padding: 0 30px;
+            }
+        }
+    }
+    .btn-wrapper{
+        .btnLogin{
+            border: none;
+            color: $clr-b;
+            padding: $btnPadding;
+            background: none;
+        }
+        .btnRegister{
+            background: none;
+            border: 1px solid $clr-b;
+            padding: $btnPadding;
+            border-radius: $btnRadius;
+            margin-left: 2em;
+        }
+    }
+}

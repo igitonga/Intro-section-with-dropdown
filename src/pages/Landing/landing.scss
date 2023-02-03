@@ -1,0 +1,45 @@
+@import "../../index.scss";
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .left-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;    
+       .headline{
+         font-size: 5em;
+         font-weight: $fnt-weight-700;
+       } 
+       .headline-text{
+        margin-top: -6em;
+        color: $clr-g;
+        font-weight: $fnt-weight-500;
+        line-height: 20px;
+       }
+       button{
+        margin-top: -1em;
+        background: $clr-b;
+        color: $clr-w;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 10px;
+        width: 30%;
+        border: none;
+       }
+       .clients{
+        display: flex;
+        justify-content: space-between;
+        img{
+            height: 70%;
+        }
+       }
+    }
+    .right-image{
+        .hero{
+            height: 700px;
+        }
+    }
+}
