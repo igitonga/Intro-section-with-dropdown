@@ -17,22 +17,44 @@
                 text-decoration: none;
                 list-style: none;
                 padding: 0 30px;
+                display: flex;
+                align-items: center;
+                color: $clr-g;
+                img{
+                    margin-left: 4px;
+                }
+                &:hover{
+                    color: $clr-b;
+                    cursor: pointer;
+                }
             }
         }
     }
     .btn-wrapper{
         .btnLogin{
             border: none;
-            color: $clr-b;
+            color: $clr-g;
             padding: $btnPadding;
             background: none;
+            font-size: 16px;
+            &:hover{
+                color: $clr-b;
+                cursor: pointer;
+            }
         }
         .btnRegister{
             background: none;
-            border: 1px solid $clr-b;
+            border: 2px solid $clr-g;
             padding: $btnPadding;
+            color: $clr-g;
             border-radius: $btnRadius;
             margin-left: 2em;
+            font-size: 16px;
+            &:hover{
+                color: $clr-b;
+                cursor: pointer;
+                border: 2px solid $clr-b;
+            }
         }
     }
 }

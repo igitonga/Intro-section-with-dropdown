@@ -17,6 +17,7 @@
         color: $clr-g;
         font-weight: $fnt-weight-500;
         line-height: 20px;
+        font-size: 18px;
        }
        button{
         margin-top: -1em;
@@ -28,6 +29,12 @@
         border-radius: 10px;
         width: 30%;
         border: none;
+        &:hover{
+            background: none;
+            color: $clr-b;
+            border: 2px solid $clr-b;
+            cursor: pointer;
+        }
        }
        .clients{
         display: flex;
