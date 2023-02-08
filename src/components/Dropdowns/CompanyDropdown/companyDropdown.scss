@@ -1,0 +1,17 @@
+@import "../../../index.scss";
+
+.wrapper{
+    background: $clr-w;
+    position: absolute;
+    left: 18em;
+    top: 4em;
+    border-radius: $btnRadius;
+    ul{
+        margin: -2px 0;
+        li{
+            list-style: none;
+            color: $clr-g;
+            margin: 10px 0;
+        }
+    }
+}
