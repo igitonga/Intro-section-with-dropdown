@@ -6,9 +6,12 @@
     left: 18em;
     top: 4em;
     border-radius: $btnRadius;
+    box-shadow: 0px 0px 50px -20px $clr-g;
     ul{
         margin: -2px 0;
+        padding: 14px;
         li{
+            font-size: 15px;
             list-style: none;
             color: $clr-g;
             margin: 10px 0;
